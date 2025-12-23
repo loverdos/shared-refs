@@ -1,0 +1,10 @@
+[package]
+name = "shared-refs"
+version = "0.1.0"
+edition = "2024"
+authors = ["Christos KK Loverdos <https://github.com/loverdos>"]
+license = "Apache-2.0"
+description = "Unifies `Rc<RefCell<T>>`, `Arc<Mutex<T>>`, and `Arc<RwLock<T>>` behind a `Shared<T>` borrowing API using GATs"
+repository = "https://github.com/loverdos/shared-refs"
+keywords = ["shared", "references", "rc", "arc", "gat"]
+categories = ["memory-management"]
